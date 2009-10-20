@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="jquery.corners.min.js"></script>
+    <style type="text/css" media="screen">
+      body {color: white;}
+      
+      h1, h2, h3 {font-family: helvetica;}
+      
+      h2 {font-size: 1.8em;}
+      
+      .rounded {padding: 10 30; border: 1px solid black; background-color: #280f0f; text-align: justify;font-family: verdana;margin-top: 50px;}
+      
+      #wrapper {margin: 0 auto;width: 650px;margin-top: 350px;}
+      
+      a {color: white;}
+    </style>
+    <script>
+      $(document).ready( function(){
+        $('.rounded').corners('10px');
+      });
+    </script>
+  </head>
+  <body style="background: #48add1 url(large_header.png) top center no-repeat;">
+    <div id="wrapper">
+      <div class="rounded">
+         <h2 style="text-align: center;">
+           Calling All Rubyists!
+         </h2>
+     
+         <p>
+           <b>The Red River Rubyists</b> is a new 
+           <a href="http://www.ruby-lang.org/en/">Ruby</a> User Group that is 
+           starting up right here in Shreveport, Louisiana.
+         </p>
+         <p>
+           If you're new to Ruby, curious about 
+           <a href="http://www.ruby-doc.org/whyruby/">why it's so awesome</a>, 
+           or are a Rubyist here locally, you're not alone! We'd love to have 
+           you at our meetings!
+         </p>
+         <p>
+           During each meeting, we discuss the latest trends and topics in 
+           the ruby community, speak about what we're working on or have 
+           discovered, and simply relax and have a good time around fellow geeks.
+         </p>
+         <p>
+           If you'd like to find out more OR would like to provide a 
+           place for the Red River Rubyists to meet, feel free to 
+           e-mail 
+           <a href="mailto:keith@rubyengineer.com">
+             keith@rubyengineer.com
+           </a> or check out the google group at:
+           <a href="http://groups.google.com/group/red-river-rubyists">http://groups.google.com/group/red-river-rubyists</a>
+         </p>
+      </div>
+      
+      <div class="rounded" style="text-align: justify;font-family: verdana;">
+        <h3>When do you meet?</h3>
+        <p>We are tentatively setting our meeting time for the 
+          <b>third Thursday of every month</b> at 7:00PM.</p>
+        
+        <h3>Where do you meet?</h3>
+        <p>
+          We are currently working out a location to meet for the first meeting. 
+          If you'd like us to meet at your location, please contact 
+          <a href="mailto:keith@rubyengineer.com">
+            keith@rubyengineer.com
+          </a>
+        </p>
+        
+        <h3>When is the next meeting?</h3>
+        <p>Soon! Stay tuned for details!</p>
+      </div>
+    </div>
+  </body>
+</html>
